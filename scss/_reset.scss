@@ -1,0 +1,51 @@
+
+
+
+
+* 
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+@mixin media($var) {
+  @if $var == mobile {
+    @media only screen and (max-width: 480px) {
+      @content;
+    }
+  }
+
+  @if $var == Tablet {
+    @media (min-width: 481px) and (max-width: 767px) {
+      @content;
+    }
+  }
+
+  @if $var == Ipad {
+    @media (min-width: 768px) and (max-width: 1024px) {
+      @content;
+    }
+  }
+
+  @if $var == Lab_top {
+    @media (min-width: 1025px) and (max-width: 1280px) {
+      @content;
+    }
+  }
+
+  @if $var == large_screen {
+    @media only screen and (min-width: 1281px) {
+      @content;
+    }
+  }
+
+  @if $var == All_screen {
+    @media only screen and (max-width: 2000px) {
+      @content;
+    }
+  }
+}
