@@ -43,9 +43,5 @@
     }
   }
 
-  @if $var == All_screen {
-    @media only screen and (max-width: 2000px) {
-      @content;
-    }
-  }
+
 }

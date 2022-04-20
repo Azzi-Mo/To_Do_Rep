@@ -38,18 +38,18 @@ sec.className = "sec";
 // document.body.insertBefore(sec , document.body.childNodes[1])
 container.append(sec);
 
-red = "red";
-head_p1.onclick = function () {
-  head_p1.style.color = red;
-  if (red === red) {
-    localStorage.setItem(red, "test");
-  }
-};
-if (localStorage.getItem(red)) {
-  head_p1.style.color = "red";
-}
+// red = "red";
+// head_p1.onclick = function () {
+//   head_p1.style.color = red;
+//   if (red === red) {
+//     localStorage.setItem(red, "test");
+//   }
+// };
+// if (localStorage.getItem(red)) {
+//   head_p1.style.color = "red";
+// }
 
-console.log(localStorage);
+// console.log(localStorage);
 
 let test_data_ar = [
   " Vue.js",
@@ -197,17 +197,7 @@ sec.childNodes[3].childNodes[0].childNodes[0].childNodes[0].style =
 sec.childNodes[6].childNodes[0].childNodes[0].childNodes[0].style =
   "display:grid";
 
-// console.log(ch_data.childNodes[2].innerHTML)
-// console.log(ch_data.childNodes[3].innerHTML)
+  
 
-for (lee in ch_data.childNodes[2].innerHTML) {
-  //  console.log(ch_data.childNodes[2].innerHTML[lee])
-}
 
-if (
-  ch_data.childNodes[2].innerHTML.length >
-  ch_data.childNodes[3].innerHTML.length
-) {
-  // console.log('ok')
-}
 
