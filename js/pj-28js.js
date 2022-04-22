@@ -60,7 +60,7 @@ let test_data_ar = [
   // " angular course", //4
   " pug.js course", //5
   " gulp.js course", //5
-  " type script course", 
+  " react course", 
   // " canavas course", //5
   // "  jquery course ", //6
   // " threejs course", //6
